@@ -1,0 +1,353 @@
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@font-face {
+  font-family: "socialico";
+  src: url("../font/Socialico.ttf") format("truetype");       
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font: 100%/1.5em "Open Sans", arial; /*100%-величина шрифта(16px); 1.5-межстрочный интервал*/	
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 2.25em;
+	font-weight: bold;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #292f36;
+}
+
+h2 {
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 1.125em;
+	font-weight: bold;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #292f36;
+}
+
+.container {
+	width: 60.94%;
+	margin: 0 auto;	
+	padding: 0 0.526%;
+	/*outline: 1px solid black;*/
+}
+
+.nav-block {
+	background-color: #1d2126;	
+}
+
+.logo {
+	float: left;
+	text-align: left;
+	margin: 1.7em 0 1.7em 0;
+}
+
+.main-navigation ul {  
+  list-style: none;
+  float: right;
+  margin: 1.2em 1.25em 0 0;
+}
+
+.main-navigation li {
+  display: inline-block;    
+  vertical-align: top;  
+  margin-right: 0.5em;
+}
+
+.main-navigation a {
+	text-transform: uppercase;
+  display: block;  
+  text-decoration: none;  
+  color: #a4aead; 
+  border: 2px solid transparent; 
+  border-radius: 5px;
+  padding: 0.4em 0.5em;
+}
+
+.main-navigation a:hover {
+	border: 2px solid #a4aead;
+	border-radius: 5px;
+}
+
+/*-----------------------------------------------[SLIDER]-----------------------------------------------*/
+.slick {
+	margin: 0 auto;
+}
+
+.slide {
+	position: relative;
+
+}
+
+.slide-content {
+	position: absolute;
+	width: 33.68%;
+	top: 33.33%;
+	left: 20%;
+}
+
+.slide-content h1 {
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 2.25em;
+	line-height: 1em;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+}
+
+.slide-content p {
+	color: white;	
+	margin: 0 0 2em 0;
+}
+
+.slide-content-2 {
+	position: absolute;
+	width: 33.68%;
+	top: 50%;
+	left: 47.5%;
+}
+.slide-content-3 {
+	position: absolute;
+	width: 33.68%;
+	left: 0;
+	top: 30%;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.slide-content-3 h1 {
+	text-align: center;
+}
+.slide-content-3 p {
+	text-align: center;
+}
+
+.slide-content-3 .btn {	
+	text-align: center;
+	padding: 0.8em 4em;
+	margin: 0 0 0 16.5em;
+}
+
+.btn {	
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 0.875em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white; 
+  border: 2px solid white; 
+  border-radius: 5px;
+  padding: 0.8em 2em;
+  margin: 0 0.625em 0 0; 
+  text-decoration: none;
+}
+
+.btn:hover {
+	background: #23b7a4; 
+	border: 2px solid #23b7a4;
+}
+
+/*-----------------------------------------------[SLIDER]-----------------------------------------------*/
+
+.about h1, .team h1 {
+	border-left: 0.3em solid #e1e6ea;
+	padding-left: 0.39em; 
+	margin: 2.36em 0 1.8em 0; 
+}
+
+.about p {
+	color: #8d8f92;
+}
+
+.left {
+	width: 55.5%;
+	float: left;
+}
+
+.left p {
+	margin-bottom: 2.5em;
+}
+
+.social {
+	margin-top: 1.3em;
+	font-family: "Socialico";
+	font-size: 3em; 	
+}
+
+.social a {		
+	text-decoration: none;
+	color: white;
+	display: inline-block;  
+  width: 9.5%; 
+  text-align: center;
+  padding: 2.84% 0;
+  background: #c8cdd0;   
+  vertical-align: top;
+  margin-right: 1px;
+}
+
+.right {
+	float: right;
+	width: 44.5%;
+}
+
+.number {		
+	width: 9.858%;  
+	display: inline-block;	
+	vertical-align: top;
+	text-align: center;	
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 1.29em;	
+	font-weight: bold;
+	line-height: 100%;
+	padding: 2.95% 0;
+	background: #23b7a4;	
+	color: white;
+}
+
+.text-block {
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	float: right;
+	padding-left: 1.25em;
+}
+
+.right h2 {		
+	padding-bottom: 0.8em; 
+}
+
+
+
+.item-wrapper {
+	margin-bottom: 2.5em; 
+}
+
+.team-member {
+	position: relative;
+	float: left;
+	width: 23.07%;	
+	margin-right: 2.2%;
+	background: #e1e6ea;
+}
+
+.team-member:last-child {
+	margin-right: 0;
+}
+
+.social-link {
+	display: none;	
+	position: absolute;		
+	text-align: center; 
+	top: 35%;
+	left: 21%;		
+}
+
+.social-link a {
+	float: left;
+	font-family: "Socialico";
+	font-size: 1.8em;
+	width: 50px;                       /*избавиться от пикселей*/			
+	text-decoration: none;
+	color: white;
+	background: #3a454d;
+	padding: 8.5% 0;
+	margin-right: 1px;
+}
+
+.name {
+	font-family: "Quattrocento Sans", sans-serif; 
+	font-size: 1em;
+	padding: 5% 0 0 6.5%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #292f36;
+}
+
+.prof {
+	font-family: "Open Sans", arial;
+	font-size: 1em;
+	padding: 0 0 5% 6.5%;
+	color: #8d8f92;
+}
+
+.team-member:hover{
+	background: #3a454d;
+	color: white;	
+}
+
+.team-member:hover .name {
+	color: white;
+}
+.team-member:hover .prof {
+	color: white;
+}
+
+.team-member:hover .social-link {
+	display: block;
+}
+
+.work {
+	background: #3a454d;
+}
+
+.work h1 {
+	border-left: 0.3em solid #4e5a62;
+	padding-left: 0.39em; 
+	margin: 2.36em 0 1.8em 0;
+	color: white; 
+}
+
+/*-----------------------------------------------[GALLERY]-----------------------------------------------*/
+
+
+/*.flipLightBox {
+	float: left;	
+}*/
+
+.gallery-item {
+	float: left;
+	position: relative;
+	width: 33.33%;
+	padding: 0 1.333% 1.333% 0;
+}
+
+.gallery-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+}
+
+.zoom {	
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-align: center;	
+}
+
+
+/*-----------------------------------------------[GALLERY]-----------------------------------------------*/
